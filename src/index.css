@@ -115,7 +115,7 @@ footer button i {
   height: 100%;
   gap: 1rem;
   padding: 1rem;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   width: 80%;
   max-width: 800px;
   margin-left: auto;
@@ -174,10 +174,12 @@ footer button i {
     position: relative;
     inset: unset;
     min-width: 30%;
+    max-height: 100vh;
     box-shadow: 0 0 40px 1px #030615;
   }
 
   .sidebar-contents {
     margin: unset;
+    width: 100%;
   }
 }
