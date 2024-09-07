@@ -8,7 +8,7 @@ function Footer(props) {
             <div className="bg-gradient"></div>
             <div>
                 <h2>{data?.title}</h2>
-                <h1>ACOD Project</h1>
+                <h1>APOD Project</h1>
 
             </div>
             <button onClick={handleToggleModal}>
