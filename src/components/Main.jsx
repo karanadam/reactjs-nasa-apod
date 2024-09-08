@@ -6,7 +6,7 @@ function Main(props) {
 
     return (
         <div className='img-container'>
-            <img src={data?.hdurl} alt="img" className={data?.title || 'bg-img'} />
+            <img src={data?.hdurl} alt="img" className={'bg-img'} />
         </div>
     )
 }

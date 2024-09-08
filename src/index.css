@@ -31,10 +31,13 @@
   flex-direction: column;
   max-height: 100vh;
   width: 100%;
+  max-width: 100vw;
 }
 
-.main-img {
+.bg-img {
   height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
   width: 100%;
   display: flex;
   flex: 1;
